@@ -55,7 +55,7 @@ const services = [
   },
   {
     icon: Percent,
-    title: 'Booking Deposit',
+    title: '50% Booking Deposit',
     basePrice: '50%',
     description: 'Help secure your spot on the calandar',
     customPrice: true
