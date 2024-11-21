@@ -39,13 +39,7 @@ const services = [
     description: 'Photos of your best friend are included for free',
     customPrice: false
   },
-  {
-    icon: SirenIcon,
-    title: 'Emergency Care',
-    basePrice: 0,
-    description: '24/7 availability for unexpected situations',
-    customPrice: true
-  },
+  
   {
     icon: CloudLightningIcon,
     title: 'Holiday And Disaster',
@@ -56,9 +50,17 @@ const services = [
   {
     icon: Percent,
     title: 'Booking Deposit',
-    basePrice: '50% of fee',
+    basePrice:"50% of fee",
     description: 'Help secure your spot on the calandar',
+    customPrice: false
    
+  },
+  {
+    icon: SirenIcon,
+    title: 'Emergency Care',
+    basePrice: 0,
+    description: '24/7 availability for unexpected situations',
+    customPrice: true
   }
 
   
@@ -81,7 +83,7 @@ export default function Services() {
               <service.icon className="w-12 h-12 text-purple-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>
               <p className="text-purple-600 font-bold text-2xl mb-3">
-                {service.customPrice ? '' : `$${service.basePrice}`}
+                {service.customPrice ? "" : `$${service.basePrice}`}
               </p>
               <p className="text-gray-600">{service.description}</p>
             </div>
