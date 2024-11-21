@@ -81,7 +81,7 @@ export default function Services() {
               <service.icon className="w-12 h-12 text-purple-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>
               <p className="text-purple-600 font-bold text-2xl mb-3">
-                {service.customPrice ? 'Custom rates' : `$${service.basePrice}/service`}
+                {service.customPrice ? 'Custom rates' : `$${service.basePrice}`}
               </p>
               <p className="text-gray-600">{service.description}</p>
             </div>
