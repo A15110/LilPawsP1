@@ -35,8 +35,9 @@ const services = [
   {
     icon: CameraIcon,
     title: 'Photo Updates',
+    basePrice: "0",
     description: 'Photos of your best friend are included for free',
-    customPrice: true
+    customPrice: false
   },
   {
     icon: SirenIcon,
