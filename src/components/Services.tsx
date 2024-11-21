@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DogIcon, HomeIcon, Clock, CalendarDays, SunMedium, ShieldCheck, DollarSignIcon, CameraIcon, Percent } from 'lucide-react';
+import { DogIcon, HomeIcon, Clock, CalendarDays, SunMedium, ShieldCheck, DollarSignIcon, CameraIcon, Percent, CloudLightningIcon, SirenIcon } from 'lucide-react';
 
 const services = [
   {
@@ -35,30 +35,29 @@ const services = [
   {
     icon: CameraIcon,
     title: 'Photo Updates',
-    basePrice: 'Free',
     description: 'Photos of your best friend are included for free',
     customPrice: true
   },
   {
-    icon: ShieldCheck,
+    icon: SirenIcon,
     title: 'Emergency Care',
     basePrice: 0,
     description: '24/7 availability for unexpected situations',
     customPrice: true
   },
   {
-    icon: DollarSignIcon,
+    icon: CloudLightningIcon,
     title: 'Holiday And Disaster',
     basePrice: 8,
-    description: 'Increased price for Holiday rates',
-    customPrice: true
+    description: 'Increased price for Holiday\s and Disasters',
+    
   },
   {
     icon: Percent,
-    title: '50% Booking Deposit',
-    basePrice: '50%',
+    title: 'Booking Deposit',
+    basePrice: '50% of fee',
     description: 'Help secure your spot on the calandar',
-    customPrice: true
+   
   }
 
   
@@ -81,7 +80,7 @@ export default function Services() {
               <service.icon className="w-12 h-12 text-purple-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>
               <p className="text-purple-600 font-bold text-2xl mb-3">
-                {service.customPrice ? 'Custom rates' : `$${service.basePrice}`}
+                {service.customPrice ? '' : `$${service.basePrice}`}
               </p>
               <p className="text-gray-600">{service.description}</p>
             </div>

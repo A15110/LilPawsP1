@@ -14,7 +14,6 @@ import { useAuth } from './lib/AuthContext';
 import Navigation from './components/Navigation';
 import LOGO_URL from './logo.png'; 
 
-//const LOGO_URL = 'https://lh3.googleusercontent.com/IU2u14cVt2eXMIiJABpW90MzASqpcS4o06VRR0tSfEICridpLzTgn-5RZLFvJCi1k_Q2iBCrgNhHnqciaMn16IA=w16383';
 
 function App() {
   const { user } = useAuth();

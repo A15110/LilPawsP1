@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Dog, Cat, Import } from 'lucide-react';
 import BookingForm from './BookingForm';
-import LOGO_URL from './logo.png'; // Adjust the path as needed
+import LOGO_URL from './logo.png';
 
 
 
-//const LOGO_URL = 'https://lh6.googleusercontent.com/KNwqHXPNe14Vq4dA_YY_uxXM5qT2dGbAkdtnXU74Czo2P_nUPAKVemwdjbhdvjyvzf1WTJLAR3ALTv-aqOMsjQ=w1280';
 const ILLUSTRATION_URL = 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&h=800&fit=crop';
 
 export default function Hero() {

@@ -52,7 +52,7 @@ export default function Navigation({ user }: NavigationProps) {
                 </div>
               )}
             </div>
-            <span className="text-white font-bold text-lg hidden sm:block">Little Paws JAX</span>
+            <span className="text-white font-bold text-lg  sm:block">Little Paws JAX</span>
           </Link>
 
           {/* Navigation Links */}
