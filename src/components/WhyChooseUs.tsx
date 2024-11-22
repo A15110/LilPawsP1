@@ -17,11 +17,7 @@ const reasons = [
     title: 'Direct Booking',
     description: 'Easy scheduling without third-party complications'
   },
-  {
-    icon: Shield,
-    title: 'Safe Environment',
-    description: 'Fully insured and certified pet care professionals'
-  },
+ 
   {
     icon: Zap,
     title: 'Emergency Available',
