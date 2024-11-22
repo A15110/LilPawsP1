@@ -78,6 +78,15 @@ export default function Contact() {
                     Info@LittlePawsJax.com
                   </a>
                 </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">Phone</h3>
+                  <a 
+                   href="tel:‪(904) 438-8588‬" 
+                    className="text-primary-600 hover:text-primary-700 transition-colors"
+                  >
+                   ‪(904) 438-8588‬
+                  </a>
+                </div>
               </div>
 
               <div className="pt-6">
