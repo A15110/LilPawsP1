@@ -15,6 +15,7 @@ import Navigation from './components/Navigation';
 import LOGO_URL from './logo.png'; 
 
 
+
 function App() {
   const { user } = useAuth();
 
